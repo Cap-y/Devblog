@@ -10,8 +10,19 @@
 
 <%= render 'shared/navbar' %>
 
+
 <div class="main-page-content <%= controller.controller_name %>">
 <%= yield %>
+</div>
+
+<div class="container-fluid indexInfo">
+ <div class="container">
+  <div class="row">
+    <div class="col-md-4">&copy; 2016 Company, Inc.</div>
+    <div class="col-md-4">About Us</div>
+    <div class="col-md-4">Contact Us.</div>
+    </div>
+  </div>
 </div>
 
 </body>

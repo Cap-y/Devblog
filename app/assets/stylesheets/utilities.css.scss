@@ -1,3 +1,59 @@
-.main-page-content {
-	padding-top: 50px;
+ body{
+ 	background: #FFFCF4;
+ }
+
+ .main-page-content{
+ 	padding-top: 50px;
+ }
+
+ .indexBG {
+ 	color: #fff;
+ 	text-align: center;
+	background: #333;
+	/*box-shadow: 10px 10px 5px #888888;*/
+
+}
+
+.indexBG2 {
+ 	/*color: #fff;*/
+ 	text-align: center;
+	background: #FFFCF4;
+	/*box-shadow: 10px 10px 5px #888888;*/
+
+}
+
+.aboutBG {
+ 	/*color: #fff;*/
+ 	text-align: center;
+	background: #F5A46D;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
+ .aboutBG2 {
+ 	text-align: center;
+ 	/*color: #fff;*/
+	background: #A2AB58;
+	box-shadow: 10px 10px 5px #888888;
+	
+}
+
+ .aboutBG3 {
+ 	text-align: center;
+ 	color: #fff;
+	background: #333;
+	box-shadow: 10px 10px 5px #888888;
+	
+}
+.aboutBG4 {
+ 	text-align: center;
+ 	color: #fff;
+	background: #558C89;
+	box-shadow: 10px 10px 5px #888888;
+	
+}
+
+.indexInfo {
+ 	color: #fff;
+ 	background: #555;
 }

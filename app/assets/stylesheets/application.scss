@@ -1,0 +1,11 @@
+$navbar-default-bg: #e62739;
+$navbar-default-link-color: #fff;
+$navbar-default-link-hover-color: #999;
+$navbar-default-link-active-color: #999;
+$btn-primary-bg: #4FB922;
+$jumbotron-padding: 0px;
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+ @import "utilities";
+ @import "pages";
