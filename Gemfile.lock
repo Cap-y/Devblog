@@ -175,6 +175,9 @@ DEPENDENCIES
   tzinfo-data
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
+<<<<<<< HEAD
 
 BUNDLED WITH
    1.11.2
+=======
+>>>>>>> a99c43e8331c40fd6b63db59ad48183e4a1768f6
