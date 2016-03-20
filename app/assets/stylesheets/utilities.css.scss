@@ -23,37 +23,54 @@
 }
 
 .aboutBG {
- 	/*color: #fff;*/
- 	text-align: center;
-	background: #F5A46D;
-	box-shadow: 10px 10px 5px #888888;
+	background: #333;
+
+}
+
+.aboutTitle {
+	text-align: center;
+ 	color: #FFFCF4;
+	background: #1c1c1c;
+	margin-top:20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+
+.aboutBG1 {
+ 	color: #FFFCF4;
+	background: #1c1c1c;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-bottom:20px;
 
 }
 
  .aboutBG2 {
- 	text-align: center;
- 	/*color: #fff;*/
-	background: #A2AB58;
-	box-shadow: 10px 10px 5px #888888;
-	
+ 	color: #FFFCF4;
+	background: #1c1c1c;
+	padding-bottom: 5px;
+	margin-bottom:20px;	
 }
 
  .aboutBG3 {
- 	text-align: center;
- 	color: #fff;
-	background: #333;
-	box-shadow: 10px 10px 5px #888888;
-	
+ 	color: #FFFCF4;
+	background: #1c1c1c;
+	padding-bottom: 5px;
+	margin-bottom:20px;	
 }
+
 .aboutBG4 {
- 	text-align: center;
- 	color: #fff;
-	background: #558C89;
-	box-shadow: 10px 10px 5px #888888;
-	
+ 	color: #FFFCF4;
+	background: #1c1c1c;
+	padding-bottom: 5px;
+	margin-bottom:20px;
 }
 
 .indexInfo {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
  	color: #fff;
  	background: #555;
 }
