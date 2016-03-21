@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  
+  get 'game/:id' => 'games#download', :as => :download
+
+  resources :games, only: [:new, :create, :index, :destroy]
+
+
   get "about" => "pages#about", as: :about
 
   get "blog" => "pages#blog", as: :blog

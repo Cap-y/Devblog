@@ -1,18 +1,28 @@
-<p>
+<div class="container">
+	<hr>
+<p class="lead">
   <strong>Title:</strong>
   <%= @article.title %>
 </p>
  
-<p>
+<p class="lead">
   <strong>Text:</strong>
   <%= @article.text %>
 </p>
 
 <h2>Comments</h2>
+
 <%= render @article.comments %>
+
 
 <h2>Add a comment:</h2>
 <%= render 'comments/form' %>
 
-<%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Back', articles_path %>
+<hr>
+
+<%= link_to 'Edit', edit_article_path(@article), class: "btn btn-default" %>
+<%= link_to 'Back', articles_path, class: "btn btn-default" %>
+
+<hr>
+
+</div>
